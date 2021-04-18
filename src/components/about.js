@@ -3,10 +3,15 @@ import {
     Image
 } from 'react-bootstrap'
 import { Foto, MySQL  } from '../assets'
+import Aos from 'aos'
 
 const About = () => {
+    React.useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return(
-        <div style={{marginTop: 30}}>
+        <div style={{ height: "100vh" }} data-aos="fade-up" id="about">
             <div style={styles.title}>
                 <h2 style={{color: "#778da9"}}>About Me</h2>
                 <br style={{width: "5rem"}}/>
@@ -15,10 +20,13 @@ const About = () => {
             <div style={{display: "flex", flexDirection: "row", width: "65vw", justifyContent: "space-between"}}>
                 <div style={{color: "#e5e5e5"}}>
                     <p>
-                        Hello! My name is Dian. I graduated from the University of Indonesia majoring in Physics. My interest in application development started back in 2020 when I volunteered as a Tutor in Artificial Intelligence Center Indonesia - turns out, developing application is a very fun thing! 
+                        Hello! My name is Dian. I graduated from the University of Indonesia majoring in Physics. 
+                        My interest in application development started back in 2020 when I volunteered as a Tutor in Artificial Intelligence Center Indonesia - turns out, developing application is a very fun thing! 
                     </p>
                     <p>
-                        Then, I decided to join Purwadhika Startup and Coding School in Full Stack Development. Here are a few programming languages and tools that I've learned:
+                        Then, I decided to join Purwadhika Startup and Coding School in Full Stack Web Development. 
+                        This bootcamp experience has shaped my code evaluation and website development knowledge.
+                        Here are a few programming languages and tools that I've learned:
                     </p>
                     <div style={{display: "flex", justifyContent: "space-around"}}>
                         <i className="fab fa-js-square" style={{fontSize: "40px"}}></i>

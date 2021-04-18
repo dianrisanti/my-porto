@@ -3,14 +3,19 @@ import {
     Image
 } from 'react-bootstrap'
 import { ProjectFoto } from '../assets'
+import Aos from 'aos'
 
 const Project = () => {
+    React.useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return(
-        <div>
-            <h2 style={{color: "#778da9"}}>My simple project I've built</h2>
+        <div style={{height: "100vh"}} id="projects">
+            <h2 style={{color: "#778da9"}} data-aos="fade-right" >My simple project I've built</h2>
             <div style={{display: "flex", flexDirection: "row", width: "75vw", justifyContent: "space-between", alignItems: "center", marginTop: 40}}>
-                <div style={{marginRight: 30, color: "#e5e5e5", marginTop: -50}}>
-                    <h4 style={{marginBottom: 30}}>E-commerce</h4>
+                <div style={{marginRight: 20, color: "#e5e5e5", marginTop: -80}} data-aos="fade-right">
+                    <h4 style={{marginBottom: 20}}>E-commerce</h4>
                     <div style={{backgroundColor: "#1b263b", width: "400px", padding: 15, borderRadius: 5}}>
                         <p>A web application for buying and selling products with different warehouse locations. 
                         You could buy any available products and we would send them from the nearest warehouse location.</p>
@@ -21,10 +26,12 @@ const Project = () => {
                         <p>Express</p>
                     </div>
                 </div>
-                <Image
-                    src={ProjectFoto.default}
-                    style={{borderRadius: 5}}
-                />
+                <div data-aos="fade-left">
+                    <Image
+                        src={ProjectFoto.default}
+                        style={{borderRadius: 5}}
+                    />
+                </div>
             </div>
         </div>
     )
