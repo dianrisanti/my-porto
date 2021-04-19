@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-porto/static/css/main.09c54a67.chunk.css",
+    "main.js": "/my-porto/static/js/main.692e29a8.chunk.js",
+    "main.js.map": "/my-porto/static/js/main.692e29a8.chunk.js.map",
+    "runtime-main.js": "/my-porto/static/js/runtime-main.d7e9095f.js",
+    "runtime-main.js.map": "/my-porto/static/js/runtime-main.d7e9095f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/my-porto/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.268d2d28.chunk.js": "/my-porto/static/js/2.268d2d28.chunk.js",
+    "static/js/2.268d2d28.chunk.js.map": "/my-porto/static/js/2.268d2d28.chunk.js.map",
+    "index.html": "/my-porto/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/my-porto/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.09c54a67.chunk.css.map": "/my-porto/static/css/main.09c54a67.chunk.css.map",
+    "static/js/2.268d2d28.chunk.js.LICENSE.txt": "/my-porto/static/js/2.268d2d28.chunk.js.LICENSE.txt",
+    "static/media/foto.jpeg": "/my-porto/static/media/foto.be481fab.jpeg",
+    "static/media/logo.png": "/my-porto/static/media/logo.4787adee.png",
+    "static/media/mysql.svg": "/my-porto/static/media/mysql.c8e88d76.svg",
+    "static/media/project1.jpg": "/my-porto/static/media/project1.21e38d00.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7e9095f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.268d2d28.chunk.js",
+    "static/css/main.09c54a67.chunk.css",
+    "static/js/main.692e29a8.chunk.js"
+  ]
+}
