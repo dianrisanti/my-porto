@@ -26,7 +26,7 @@ const About = () => {
                     <p>
                         Then, I decided to join Purwadhika Startup and Coding School in Full Stack Web Development. 
                         This bootcamp experience has shaped my code evaluation and website development knowledge.
-                        Here are a few programming languages and tools that I've learned:
+                        Here are a few technologies that I've learned:
                     </p>
                     <div style={{display: "flex", justifyContent: "space-around"}}>
                         <i className="fab fa-js-square" style={{fontSize: "40px"}}></i>

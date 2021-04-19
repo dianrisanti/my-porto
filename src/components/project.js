@@ -27,10 +27,12 @@ const Project = () => {
                     </div>
                 </div>
                 <div data-aos="fade-left">
-                    <Image
-                        src={ProjectFoto.default}
-                        style={{borderRadius: 5}}
-                    />
+                    <a href="https://github.com/Franky777shg/PWD-Warehouse-3.git">
+                        <Image
+                            src={ProjectFoto.default}
+                            style={{borderRadius: 5}}
+                        />
+                    </a>
                 </div>
             </div>
         </div>

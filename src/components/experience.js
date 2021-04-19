@@ -31,7 +31,10 @@ const Experience = () => {
 
     return(
         <div style={{width: "65vw", height: "100vh"}} data-aos="fade-up" id="experiences">
-            <h2 style={{color: "#778da9"}}>Before I met JavaScript</h2>
+            <h2 style={{color: "#778da9"}}>Experiences</h2>
+            <p style={{color: "#e5e5e5", fontSize: 20}}>
+                Here are few works that I did before learning javascript:
+            </p>
             {
                 WORK_EXP.map(item => {
                     return(
