@@ -27,7 +27,7 @@ const Project = () => {
                     </div>
                 </div>
                 <div data-aos="fade-left">
-                    <a href="https://github.com/Franky777shg/PWD-Warehouse-3.git">
+                    <a href="https://github.com/dianrisanti/ecommerce.git">
                         <Image
                             src={ProjectFoto.default}
                             style={{borderRadius: 5}}
